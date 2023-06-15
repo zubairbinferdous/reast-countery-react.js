@@ -1,0 +1,21 @@
+.data h1 {
+  font-size: 23px !important;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.data p {
+  font-size: 20px;
+  color: rgb(253, 253, 253);
+}
+
+.data {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid red;
+  background-color: rgb(48, 47, 46);
+}
+
+.data img {
+  width: 300px;
+  height: 200px;
+}

@@ -1,0 +1,8 @@
+.main h1 {
+  color: tomato;
+  font-size: 50px;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

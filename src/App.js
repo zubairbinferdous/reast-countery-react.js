@@ -1,5 +1,7 @@
 
 import './App.css';
+import Footer from './component/Footer/Footer';
+import Header from './component/Header/Header';
 import Person from './component/Person/Person';
 
 
@@ -10,18 +12,12 @@ function App() {
     <div className="App">
       <Header></Header>
       <Person></Person>
+      <Footer></Footer>
     </div>
   );
 }
 
 
 
-function Header() {
-  return(
-    <div className="country-header">
-      <h1> this is all our head area</h1>
-    </div>
-  )
-}
 
 export default App;
